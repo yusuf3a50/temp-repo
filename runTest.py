@@ -41,7 +41,7 @@ from unittest import TestCase
 class TestRedOrBlueFunction(TestCase):
     def test_yes(self):
         with patch('__builtin__.raw_input', withdrawal=int(99)) as _raw_input:
-            self.assertEqual(answer(), 'you entered 99')
+            self.assertEqual(withdrawal(), 'you entered 99')
             _raw_input.assert_called_once_with('enter yes or no')
 
 
