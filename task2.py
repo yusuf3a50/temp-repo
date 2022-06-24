@@ -20,10 +20,10 @@
 # 7. However, when a user asks to ‘withdraw’ more money than they have on their
 # account, then you need to raise an error an exit the program.
 
-def a():
-    attempt = int(input('please input your pin: '))
+def request_pin():
+    attempt = input('please input your pin: ')
 
-def cash(withdrawal):
+def cash():
     balance = 100
     print(f'your balance is £{balance}')
     if balance < withdrawal:
@@ -49,9 +49,9 @@ def cash(withdrawal):
 #             print('your card has been blocked and you have been reported to the python police')
 
 
-# a()
+request_pin()
 
-# def wd():
-#     withdrawal = int(input('how much would would you like to withdraw? '))
-# wd()
+def wd():
+    withdrawal = int(input('how much would would you like to withdraw? '))
+wd()
 # pin(attempt)
