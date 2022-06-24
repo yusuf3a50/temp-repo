@@ -38,7 +38,7 @@ from task2 import cash
 from mock import patch
 from unittest import TestCase
 
-# this was found in: https://stackoverflow.com/questions/47690020/python-3-unit-tests-with-user-input
+# this was found in: https://stackoverflow.com/questions/21046717/python-mocking-raw-input-in-unittests
 class testATM(TestCase):
     def test_correct_withdraw_amount(self):
         with patch('__builtin__.raw_input', withdrawal=int(99)) as _raw_input:
