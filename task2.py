@@ -51,7 +51,7 @@ def cash(withdrawal):
 
 # a()
 
-# def wd():
-#     withdrawal = int(input('how much would would you like to withdraw? '))
-# wd()
+def wd():
+    withdrawal = int(input('how much would would you like to withdraw? '))
+wd()
 # pin(attempt)
