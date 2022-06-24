@@ -6,9 +6,7 @@
 # blocks of code to make it easier to write tests.
 # Try to write at least 5 unit tests in total covering various cases.
 
-from unittest import TestCase
-import unittest
-from task2 import cash
+
 
 # class testATM(unittest.TestCase):
 # # class TestRedOrBlueFunction(TestCase):
@@ -34,16 +32,18 @@ from task2 import cash
 
 
 
-
+from unittest import TestCase
+import unittest
+from task2 import cash
 from mock import patch
 from unittest import TestCase
 
-class TestATM(TestCase):
+# this was found in: https://stackoverflow.com/questions/47690020/python-3-unit-tests-with-user-input
+class testATM(TestCase):
     def test_correct_withdraw_amount(self):
         with patch('__builtin__.raw_input', withdrawal=int(99)) as _raw_input:
-            self.assertEqual(withdrawal(), 'you entered 99')
+            self.assertEqual(cash(), 'you entered 99')
             _raw_input.assert_called_once_with('what do i put in here?')
-
 
 
 
