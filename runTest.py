@@ -38,7 +38,7 @@ from task2 import cash
 from mock import patch
 from unittest import TestCase
 
-class TestRedOrBlueFunction(TestCase):
+class TestATM(TestCase):
     def test_correct_withdraw_amount(self):
         with patch('__builtin__.raw_input', withdrawal=int(99)) as _raw_input:
             self.assertEqual(withdrawal(), 'you entered 99')
