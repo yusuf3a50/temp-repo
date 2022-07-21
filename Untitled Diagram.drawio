@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-07-21T17:43:56.996Z" agent="5.0 (X11)" version="20.1.4" etag="cEH0cDmNAaIokiD4JS7F" type="github"><diagram id="r01NzRCkKseqNjuc2pSp">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-21T17:45:16.798Z" agent="5.0 (X11)" etag="8Ji9e9IVvDWBDNTojh9Q" version="20.1.4" type="github">
+  <diagram id="r01NzRCkKseqNjuc2pSp" name="Page-1">
+    <mxGraphModel dx="1422" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mR5w28hXf6_Jl-m4y_PN-1" value="&lt;font style=&quot;font-size: 72px;&quot;&gt;Hello world&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="40" width="700" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="mR5w28hXf6_Jl-m4y_PN-2" value="navbar" style="rounded=0;whiteSpace=wrap;html=1;fontSize=72;" vertex="1" parent="1">
+          <mxGeometry x="100" y="330" width="260" height="580" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
